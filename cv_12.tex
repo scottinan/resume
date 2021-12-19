@@ -1,0 +1,331 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
+\title{ScottResume}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Scott}{Inan}{ % Your name
+\urlstyle{same}\url{https://www.linkedin.com/in/scottinan} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:scott@cynicalsysadmin.com}{scott@cynicalsysadmin.com} | 408.568.7569 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+\section{Passions}
+\descript{Infrastructure Projects}
+\descript{Automation and Scripting}
+\descript{All things MySQL}
+
+\sectionspace % Some whitespace after the section
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education} 
+
+\subsection{Certifications}
+
+\descript{QwikLABS AWS Solutions Architect}
+\location{Associate and Professional}
+\location{Completed March 2016}
+
+\sectionspace % Some whitespace after the section
+
+\descript{Oracle MySQL for Database Administrators}
+\location{Completed October 2013}
+
+\sectionspace % Some whitespace after the section
+
+\descript{CompTIA A+}
+\location{Completed Aug 2012}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\subsection{Valley Christian HS}
+
+\location{Grad. 1999 | San Jose, CA}
+
+AP Computer Science (Sophomore) \\
+Junior System Administrator (97-99)
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+%\section{Links} 
+
+%Github:// \href{https://github.com/darthschema}{\bf darthschema} \\
+%LinkedIn:// \href{https://www.linkedin.com/in/scottinan}{\bf scottinan} \\
+%YouTube:// \href{https://www.youtube.com/user/calmurloc}{\bf calmurloc} \\
+%Facebook:// \href{https://www.facebook.com/calmurloc}{\bf calmurloc} \\
+%Twitter:// \href{https://twitter.com/darthschema}{\bf @darthschema}
+
+%\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Expertise \location{Over 5000 lines:}
+%------------------------------------------------
+
+\section{Expertise}
+
+\subsection{System Administration}
+Ansible \textbullet{} Puppet \textbullet{} Nagios \textbullet{} Cacti \\
+LibreNMS \textbullet{} GroundWork \textbullet{} Samba4 \\
+OpenVPN \textbullet{} Spacewalk \textbullet{} Zimbra \\
+McAfee EPO \textbullet{} SSL \textbullet{} Asterisk \\
+Active Directory \textbullet{} DNS \textbullet{} DHCP \\
+
+\sectionspace % Some whitespace after the section
+
+\location{Operating Systems:}
+RHEL \textbullet{} CentOS \textbullet{} Debian \textbullet{} Ubuntu \\
+Windows Server 2008 R2 \textbullet{} 2012 R2 \\
+MacOS X \textbullet{} Solaris %\textbullet{} \\
+
+\sectionspace % Some whitespace after the section
+
+\location{Virtualization/Cloud:}
+Xen \textbullet{} ESXi \textbullet{} EC2 \textbullet{} Rackspace \\
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Database Administration}
+MySQL \textbullet{} MariaDB \textbullet{} Galera \\
+PostgreSQL \textbullet{} Oracle \textbullet{} MS-SQL \\
+
+\sectionspace % Some whitespace after the section
+\sectionspace % Some whitespace after the section
+
+\subsection{Scripting}
+BASH \textbullet{} Python \textbullet{} Perl \textbullet{} PHP \textbullet{} AHK \\
+PowerShell \textbullet{} VBScript \\
+
+\sectionspace % Some whitespace after the section
+\sectionspace % Some whitespace after the section
+
+\subsection{Development}
+PHP \textbullet{} Laravel \textbullet{} CodeIgniter \textbullet{} .NET \\
+
+\sectionspace % Some whitespace after the section
+
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+
+\runsubsection{University of California Observatories}
+\descript{| Information Systems Manager and Administrator}
+
+\location{July 2016 – Present | Santa Cruz, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Set up and deployed new storage cluster comprising DRBD, Corosync and MDADM to replace a variety of aging SANs.
+\item Audited monitoring system (Nagios and partial Icinga migration), repaired and added needed checks - currently completing migration to Icinga2.
+\item Architect a virtual core service infrastruction solution to replace all Solaris servers/services and migrate them to either Ubuntu/CentOS/Windows 2016 AD (i.e. NIS -> AD, DNS -> AD, MatLAB -> CentOS, HTTP -> Ubuntu, etc.)
+\item On-site administration, setup and maintenance of Solaris, CentOS, Windows, Mac servers \& desktops including POs,  inventory management, software installs (i.e. MatLAB, IDL, Solidworks, Ansys, etc).
+\item Coordinate with vendors (contracts, purchasing, etc.) and with ITS (campus IT group); and maintain documentation of all procedures, projects, automation.
+\item Work with our student workers to clear away 15 years of detritus and assess our parts stock needs.
+\end{tightitemize}
+
+%\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Scratchspace Inc.}
+\descript{| IT Manager}
+
+\location{March 2015 – July 2016 | Santa Cruz, CA}
+\begin{tightitemize}
+\item Conducted in-depth technical analysis of all internal systems (hosted and SaaS) and made recommendations to the CEO to improve workflow and reduce cost.
+\item Improved workflow by moving chat to Slack and IT task management to Asana.
+\item Spearhead the cost analysis, feasibility and implementation of moving 80 of our systems to AWS and migrating our infrastructure with minimal downtime or customer impact.
+\item Design / Quote HA PBXs, Nginx/PHP Webservers and Xen Virtualization clusters for customers.
+\item Handle billable project management including task assignment, hour/cost tracking and report generation.
+\item Assess, recommend, cleanup and document IT infrastructure for customers.
+\item Perform both off and on-site maintenance and deployments for local customers utilizing Active Directory including updates, security, VPN maintenance, etc.
+\item Improved both internal and customer stability and security by overhauling both monitoring (Nagios and Groundwork) and backups (Bacula) as well as performing vulnerability scans with OpenVAS.
+\item Provide mentoring for System Administrators, Developers and Interns.
+\end{tightitemize}
+
+%\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{Fry's Electronics}
+\descript{| ISO Application Support/MySQL DBA}
+%-\location{Previous positions: ISO Helpdesk/CorpTech, ISO Admin, ISO OSH}
+\location{Jan 2012 – February 2015 | San Jose, CA}
+\begin{tightitemize}
+\item Linux and Windows Administration of a ~700 server environment across the United States and provide remote desktop support across 35 locations. 
+\item Lead DBA for all MySQL databases with responsibilities including disaster recovery, point in time recovery, database security and advanced optimization. 
+\item Automate processes using scripting (bash) and Puppet, develop / deploy apps like Spacewalk, Samba 4 AD DC, the current HA Zimbra cluster, and co-developed DNS/DHCP and switch/server inventory PHP web app. 
+\item Worked with the EDI Administrator to troubleshoot issues and develop a new EDI application to display the records from the existing application server in a more readable format.
+\item Maintain documentation for existing systems and processes for Corporate IT and remote technician and provide in-depth training for both System Administrators and Desktop Support. 
+\end{tightitemize}
+
+%\sectionspace % Some whitespace after the section
+%\sectionspace % Some whitespace after the section
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+%	SECOND PAGE
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+\section{Other Experience}
+\subsection{} 
+\location {OO OTR Driver}
+Swift Transportation\\
+Sept 2006 - Oct 2010\\
+\sectionspace
+\location {Tier 2 Tech Support}
+Cingular Wireless\\
+Oct 2004 - Aug 2006\\
+\sectionspace
+\location {Computer Technician}
+Noah's Ark Pet Styling\\
+July 2001 - Sept 2004\\
+\sectionspace
+\location {IT Manager}
+Excelsior Manufacturing\\
+Aug 1999 - July 2001\\
+\sectionspace % Some whitespace after the section
+%------------------------------------------------
+% References
+%------------------------------------------------
+\section{References}
+\subsection{Available on request}
+\end{minipage} % The end of the left column
+\hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+%------------------------------------------------
+% Projects
+%------------------------------------------------
+
+\section{Projects}
+
+\runsubsection{Core Service Virtualization}
+\descript{| Project Lead}
+\location{University of California Observatories}
+Replacing all core services servers (mostly Solaris SPARC servers) with VMs on 2 redundant Xen vhosts (with 2 redundant ESXi hosts for any Windows VMs needed).
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Storage Cluster}
+\descript{| Project Lead}
+\location{University of California Observatories}
+Replace existing SANs with 2 1U servers with RAID chassis so as to increase both speed and to add redundancy to our storage solution.  DRBD, Corosync, MDADM on Ubuntu 16.04 LTS used.
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Cross-platform SSO}
+\descript{| Project Lead}
+\location{University of California Observatories}
+Enhancing existing Windows and Mac SSO (via AD) by adding CentOS 6/7 servers via winbind and sssd respectively, and setting up IDMU temporarily as we work to migrate processes off NIS domain.
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Network Access Control}
+\descript{| Project Lead}
+\location{University of California Observatories}
+Setting up NAC utilizing openNAC, Foundry switches and multiple VLANs.
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Zimbra Email (Open Source)}
+\descript{| Project Lead}
+\location{Fry's Electronics}
+Migrate 2600 users from SquirrelMail to Zimbra and streamline email environment from 27 servers to 9.
+\sectionspace % Some whitespace after the section
+
+\runsubsection{MySQL Automation}
+\descript{| Solo}
+\location{Fry's Electronics}
+Utilize scripting working towards easy maintenance of all MySQL accounts, security as well as automation of backup jobs, backup integrity checks and tuning checks.
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Samba 4 AD and Windows 7}
+\descript{| Project Lead}
+\location{Fry's Electronics}
+Deploy SMB4 Active Directory as individual trees (store and corporate) to better address workstation security and coordinate Windows 7 deployment.
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Data Warehouse Migration}
+\descript{| Team Member}
+\location{Fry's Electronics}
+Migrate data warehouse from Oracle to MySQL including automated jobs, stored procedures and backup jobs.
+\sectionspace % Some whitespace after the section
+
+\runsubsection{Spacewalk Migration/Upgrade}
+\descript{| Team Member}
+\location{Fry's Electronics}
+Migrate DB from Oracle to PostreSQL, upgrade to Spacewalk 2 and add CentOS 6 kickstart profiles.
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage} % The end of the left column
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+%\section{Example Section 2}
+
+%\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
