@@ -1,14 +1,4 @@
 # resume
 LaTex Resume
 
-Mac Install (brew.sh required):
-
-  brew install basictex
-  brew install --cask texmaker
-*Restart shell*
-  tlmgr install textpos
-  tlmgr install isodate
-  tlmgr install titlesec
-  tlmgr install substr
-  
-Profit!
+To use: brew install basictex texmaker (for Windows/Linux use the standard LaTex package); tlmgr install textpos isodate titlesec substrt.  In TexMaker (or whatever GUI tool you are using) make sure your build is set for XeLatex.  Profit!!
