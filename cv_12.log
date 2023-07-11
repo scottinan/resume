@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.18)  18 DEC 2021 18:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.12.18)  7 FEB 2022 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -608,10 +608,10 @@ Package rerunfilecheck Info: File `cv_12.out' has not changed.
 Here is how much of TeX's memory you used:
  11452 strings out of 478436
  222962 string characters out of 5853928
- 603463 words of memory out of 5000000
+ 602463 words of memory out of 5000000
  31189 multiletter control sequences out of 15000+600000
  406018 words of font info for 84 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 96i,5n,137p,261b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,5n,137p,418b,538s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv_12.pdf (2 pages).

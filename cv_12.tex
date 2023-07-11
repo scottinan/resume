@@ -106,19 +106,19 @@ Ansible \textbullet{} Puppet \textbullet{} Nagios \textbullet{} Cacti \\
 LibreNMS \textbullet{} GroundWork \textbullet{} Samba4 \\
 OpenVPN \textbullet{} Spacewalk \textbullet{} Zimbra \\
 McAfee EPO \textbullet{} SSL \textbullet{} Asterisk \\
-Active Directory \textbullet{} DNS \textbullet{} DHCP \\
+Active Directory \textbullet{} NISplus/NIS \textbullet{} DHCP \\
 
 \sectionspace % Some whitespace after the section
 
 \location{Operating Systems:}
 RHEL \textbullet{} CentOS \textbullet{} Debian \textbullet{} Ubuntu \\
-Windows Server 2008 R2 \textbullet{} 2012 R2 \\
+Windows Server (NT-2019) \textbullet{} iOS/iPadOS \\
 MacOS X \textbullet{} Solaris %\textbullet{} \\
 
 \sectionspace % Some whitespace after the section
 
 \location{Virtualization/Cloud:}
-Xen \textbullet{} ESXi \textbullet{} EC2 \textbullet{} Rackspace \\
+Xen \textbullet{} ESXi \textbullet{} EC2 \textbullet{} Rackspace \textbullet{} Proxmox \\
 
 \sectionspace % Some whitespace after the section
 
@@ -159,16 +159,34 @@ PHP \textbullet{} Laravel \textbullet{} CodeIgniter \textbullet{} .NET \\
 
 \section{Experience}
 
+\runsubsection{Silvaco Inc.}
+\descript{| Senior Systems Administrator}
+
+\location{February 2018 – Present | Santa Clara, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightitemize}
+\item Deployed an open-source H/A Virtualization cluster to replace our main VMWare servers and allow for easier maintenance with less downtime.
+\item Rebuilt and eventually replaced the entire global authentication network (NISplus).
+\item Perform systems/network/data discovery for acquisitions and determine an integration plan.
+\item Determine security issues/implications of both existing systems, acquired systems and new systems and work to find solutions that are secure while meeting the user/groups needs.
+\item Workflow automation including website deployment, system configuration with Ansible, mac system deployment, user creation and remote site syncs.
+\item Maintain global backups and data retention utilizing a variety of custom tools created since taking them over.
+\item Assist DevOps/Marketing with development and databases and provide technical guidance to the rest of the team.
+\end{tightitemize}
+
+%\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
 \runsubsection{University of California Observatories}
 \descript{| Information Systems Manager and Administrator}
 
-\location{July 2016 – Present | Santa Cruz, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\location{July 2016 – February 2018 | Santa Cruz, CA}
 \begin{tightitemize}
 \item Set up and deployed new storage cluster comprising DRBD, Corosync and MDADM to replace a variety of aging SANs.
-\item Audited monitoring system (Nagios and partial Icinga migration), repaired and added needed checks - currently completing migration to Icinga2.
-\item Architect a virtual core service infrastruction solution to replace all Solaris servers/services and migrate them to either Ubuntu/CentOS/Windows 2016 AD (i.e. NIS -> AD, DNS -> AD, MatLAB -> CentOS, HTTP -> Ubuntu, etc.)
-\item On-site administration, setup and maintenance of Solaris, CentOS, Windows, Mac servers \& desktops including POs,  inventory management, software installs (i.e. MatLAB, IDL, Solidworks, Ansys, etc).
+\item Audited monitoring system, repaired and added needed checks and migrated to Icinga2.
+\item Architect a virtual core service infrastruction solution to replace all Solaris servers/services and migrate them to either Ubuntu, CentOS or Windows 2016.
+\item On-site administration, setup and maintenance of Solaris, CentOS, Windows, Mac servers \& desktops including POs, inventory management, software installs (i.e. MatLAB, IDL, Solidworks, Ansys, etc).
 \item Coordinate with vendors (contracts, purchasing, etc.) and with ITS (campus IT group); and maintain documentation of all procedures, projects, automation.
 \item Work with our student workers to clear away 15 years of detritus and assess our parts stock needs.
 \end{tightitemize}
@@ -183,30 +201,12 @@ PHP \textbullet{} Laravel \textbullet{} CodeIgniter \textbullet{} .NET \\
 \location{March 2015 – July 2016 | Santa Cruz, CA}
 \begin{tightitemize}
 \item Conducted in-depth technical analysis of all internal systems (hosted and SaaS) and made recommendations to the CEO to improve workflow and reduce cost.
-\item Improved workflow by moving chat to Slack and IT task management to Asana.
 \item Spearhead the cost analysis, feasibility and implementation of moving 80 of our systems to AWS and migrating our infrastructure with minimal downtime or customer impact.
 \item Design / Quote HA PBXs, Nginx/PHP Webservers and Xen Virtualization clusters for customers.
 \item Handle billable project management including task assignment, hour/cost tracking and report generation.
 \item Assess, recommend, cleanup and document IT infrastructure for customers.
-\item Perform both off and on-site maintenance and deployments for local customers utilizing Active Directory including updates, security, VPN maintenance, etc.
 \item Improved both internal and customer stability and security by overhauling both monitoring (Nagios and Groundwork) and backups (Bacula) as well as performing vulnerability scans with OpenVAS.
 \item Provide mentoring for System Administrators, Developers and Interns.
-\end{tightitemize}
-
-%\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
-
-\runsubsection{Fry's Electronics}
-\descript{| ISO Application Support/MySQL DBA}
-%-\location{Previous positions: ISO Helpdesk/CorpTech, ISO Admin, ISO OSH}
-\location{Jan 2012 – February 2015 | San Jose, CA}
-\begin{tightitemize}
-\item Linux and Windows Administration of a ~700 server environment across the United States and provide remote desktop support across 35 locations. 
-\item Lead DBA for all MySQL databases with responsibilities including disaster recovery, point in time recovery, database security and advanced optimization. 
-\item Automate processes using scripting (bash) and Puppet, develop / deploy apps like Spacewalk, Samba 4 AD DC, the current HA Zimbra cluster, and co-developed DNS/DHCP and switch/server inventory PHP web app. 
-\item Worked with the EDI Administrator to troubleshoot issues and develop a new EDI application to display the records from the existing application server in a more readable format.
-\item Maintain documentation for existing systems and processes for Corporate IT and remote technician and provide in-depth training for both System Administrators and Desktop Support. 
 \end{tightitemize}
 
 %\sectionspace % Some whitespace after the section
@@ -226,6 +226,10 @@ PHP \textbullet{} Laravel \textbullet{} CodeIgniter \textbullet{} .NET \\
 \begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
 \section{Other Experience}
 \subsection{} 
+\location {ISO Application Support/MySQL DBA}
+Fry's Electronics\\
+Jan 2012 – February 2015\\
+\sectionspace
 \location {OO OTR Driver}
 Swift Transportation\\
 Sept 2006 - Oct 2010\\
@@ -261,16 +265,16 @@ Aug 1999 - July 2001\\
 
 \section{Projects}
 
-\runsubsection{Core Service Virtualization}
+\runsubsection{Clustered Virtualization}
 \descript{| Project Lead}
-\location{University of California Observatories}
-Replacing all core services servers (mostly Solaris SPARC servers) with VMs on 2 redundant Xen vhosts (with 2 redundant ESXi hosts for any Windows VMs needed).
+\location{Silvaco Inc.}
+Utilizing decommissioned engineering servers as nodes and storage we built a Proxmox High-Availability Virtualization Cluster which allows for higher uptime, less maintenance windows.  As we continue to expand this cluster (both through new and decommissioned hosts) our ability to respond to quick requests for a large amount of compute/memory depends less on purchasing new systems for specific projects.
 \sectionspace % Some whitespace after the section
 
-\runsubsection{Storage Cluster}
+\runsubsection{Storage and Data Deduplication}
 \descript{| Project Lead}
-\location{University of California Observatories}
-Replace existing SANs with 2 1U servers with RAID chassis so as to increase both speed and to add redundancy to our storage solution.  DRBD, Corosync, MDADM on Ubuntu 16.04 LTS used.
+\location{Silvaco Inc.}
+Tested various different solutions both paid and free; due to the needs of our users we settled on ZFS on Ubuntu with a significant amount of memory to allow us to deduplicate over 110T of data down to ~40T and soon will be upgrading from mechanical disks to all-flash.
 \sectionspace % Some whitespace after the section
 
 \runsubsection{Cross-platform SSO}
@@ -285,34 +289,16 @@ Enhancing existing Windows and Mac SSO (via AD) by adding CentOS 6/7 servers via
 Setting up NAC utilizing openNAC, Foundry switches and multiple VLANs.
 \sectionspace % Some whitespace after the section
 
-\runsubsection{Zimbra Email (Open Source)}
-\descript{| Project Lead}
-\location{Fry's Electronics}
-Migrate 2600 users from SquirrelMail to Zimbra and streamline email environment from 27 servers to 9.
-\sectionspace % Some whitespace after the section
-
 \runsubsection{MySQL Automation}
 \descript{| Solo}
 \location{Fry's Electronics}
 Utilize scripting working towards easy maintenance of all MySQL accounts, security as well as automation of backup jobs, backup integrity checks and tuning checks.
 \sectionspace % Some whitespace after the section
 
-\runsubsection{Samba 4 AD and Windows 7}
-\descript{| Project Lead}
-\location{Fry's Electronics}
-Deploy SMB4 Active Directory as individual trees (store and corporate) to better address workstation security and coordinate Windows 7 deployment.
-\sectionspace % Some whitespace after the section
-
 \runsubsection{Data Warehouse Migration}
 \descript{| Team Member}
 \location{Fry's Electronics}
 Migrate data warehouse from Oracle to MySQL including automated jobs, stored procedures and backup jobs.
-\sectionspace % Some whitespace after the section
-
-\runsubsection{Spacewalk Migration/Upgrade}
-\descript{| Team Member}
-\location{Fry's Electronics}
-Migrate DB from Oracle to PostreSQL, upgrade to Spacewalk 2 and add CentOS 6 kickstart profiles.
 \sectionspace % Some whitespace after the section
 
 %----------------------------------------------------------------------------------------
